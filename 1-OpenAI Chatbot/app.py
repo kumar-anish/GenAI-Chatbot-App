@@ -20,7 +20,7 @@ os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 ## Prompt Template
 prompt=ChatPromptTemplate.from_messages(
     [
-        ("system","You are a helpful massistant . Please  repsonse to the user queries"),
+        ("system","You are a helpful assistant . Please  respond to the user queries"),
         ("user","Question:{question}")
     ]
 )
